@@ -1,20 +1,33 @@
-backend
+# TODO List - Aplicação de Agenda
 
-npm init -y 
-npm install nodemon
-npm install express
-npm install mongodb
-npm install joi
-npm install cors
-x npm install uuid
+Este é um projeto de lista de tarefas (TODO List), onde o usuário pode adicionar, editar, excluir, pesquisar e arquivar tarefas.
 
 -----
-frontend
-npx create-react-app frontend -y
-npm install react-router-dom
+# Dependencias necessárias:
+``` 
+npm install 
+``` 
+---
 
+## Para rodar o Backend
+```
+cd backend
+nmp run dev 
+```
 ----
+## Para rodar o Fontend
+
+```
+cd frontend
+nmp start
+```
+----
+## Algumas fontes
+
 https://expressjs.com/pt-br/
+
 https://www.npmjs.com/package/joi
+
 https://www.npmjs.com/package/mongodb
+
 https://joi.dev/api/?v=17.13.3
