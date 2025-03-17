@@ -1,0 +1,12 @@
+FROM node:19.0.1
+
+EXPOSE 3001
+
+WORKDIR /frontend
+
+COPY package.json package-lock.json ./
+RUN npm install
+
+COPY . .
+
+CMD ["sh", "-c", "PORT=3001 npm start"]
