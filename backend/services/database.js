@@ -1,7 +1,8 @@
 const { MongoClient, MongoError } = require('mongodb');
 
 // Connection URL
-const url = 'mongodb://localhost:27017';
+//const url = 'mongodb://localhost:27017'; // uncomment this line if you are running on your pc
+const url = 'mongodb://mongodb:27017'; // comment this if you are not running on a docker container
 const dbName = 'TODO_List_DB';
 const collectionName = 'TODO_List_Collection';
 const client = new MongoClient(url);
