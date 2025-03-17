@@ -61,8 +61,9 @@ docker-compose up --build
 ```
 ----
 ## Agenda 
-![Tela-imagens-ativas](Tela-tarefas-ativas.png)
-![Tela-imagens-ativas](Tela-tarefas-arquivadas.png)
+![Tela-imagens-ativas](/images/Tela-tarefas-ativas.png)
+
+![Tela-imagens-ativas](/images/Tela-tarefas-arquivadas.png)
 
 ----
 ## Algumas fontes
