@@ -28,14 +28,13 @@ Lembre-se que o backend deve rodar na porta 3000
 ``` 
 npm install 
 ``` 
----
 
 ### Para rodar o Backend
 ```
 cd backend
 nmp run dev 
 ```
-----
+
 ### Para rodar o Fontend
 
 ```
@@ -66,7 +65,7 @@ docker-compose up --build
 ![Tela-imagens-ativas](/images/Tela-tarefas-arquivadas.png)
 
 ----
-## Algumas fontes
+### Algumas fontes
 
 https://expressjs.com/pt-br/
 
